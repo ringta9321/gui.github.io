@@ -9,15 +9,7 @@ local teleportPos = Vector3.new(880, 3, -39430)
 local chairFound, x, y, zStart, zEnd, step, dur = false, 57, 3, 30000, -49032.99, -2000, 0.5
 local tpCount, delay = 10, 0.1
 
--- Noclip
-spawn(function()
-    while true do
-        for _, part in pairs(char:GetDescendants()) do
-            if part:IsA("BasePart") then part.CanCollide = false end
-        end
-        task.wait()
-    end
-end)
+
 
 -- Notifications
 spawn(function()

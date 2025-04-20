@@ -20,7 +20,7 @@ spawn(function()
             Icon = "rbxassetid://99581962287910",
             Duration = 5
         })
-        task.wait(20)
+        task.wait(60)
     end
 end)
 
